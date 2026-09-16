@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-09-16T01:34:31.768Z",
+  "sources": {
+    "cdn": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/expert-marketplace",
+    "archive": "https://raw.githubusercontent.com/infometa/workbuddyskills/main"
+  },
+  "sourceLastUpdated": "2026-08-18T03:00:00Z",
+  "counts": {
+    "experts": 427,
+    "categories": 15,
+    "scenes": 10,
+    "plugins": 427,
+    "files": 13035,
+    "downloaded": 62,
+    "skipped": 12955,
+    "failed": 18
+  },
+  "failures": [
+    "plugins/ppt-creation-expert/.codebuddy-plugin/plugin.json",
+    "plugins/career-navigator/.codebuddy-plugin/plugin.json",
+    "plugins/note-class-representative/.codebuddy-plugin/plugin.json",
+    "plugins/campus-job-search-coach/.codebuddy-plugin/plugin.json",
+    "plugins/study-fortune-compass/.codebuddy-plugin/plugin.json",
+    "plugins/campus-event-navigator/.codebuddy-plugin/plugin.json",
+    "plugins/exam-preparation-planner/.codebuddy-plugin/plugin.json",
+    "plugins/computer-operations-advisor/.codebuddy-plugin/plugin.json",
+    "plugins/english-writing-coach/.codebuddy-plugin/plugin.json",
+    "plugins/thesis-writing-mentor/.codebuddy-plugin/plugin.json",
+    "plugins/fbsir-super-independent-board/.codebuddy-plugin/plugin.json",
+    "plugins/workbuddy-universal-mentor/.codebuddy-plugin/plugin.json",
+    "plugins/fbsir-mom-dialogue-expert/.codebuddy-plugin/plugin.json",
+    "plugins/mibao-media-archivist/.codebuddy-plugin/plugin.json",
+    "plugins/campus-conversation-coach/.codebuddy-plugin/plugin.json",
+    "plugins/tietu-toutiao/.codebuddy-plugin/plugin.json",
+    "plugins/fbsir-beike-yi/.codebuddy-plugin/plugin.json",
+    "plugins/linkfox-expert-amazon-listing-specialist/.codebuddy-plugin/plugin.json"
+  ],
+  "note": "专家内容版权归原作者与 WorkBuddy/腾讯相关产品所有，此仓库仅作镜像归档。"
+}

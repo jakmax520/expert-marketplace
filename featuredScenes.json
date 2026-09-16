@@ -1,0 +1,390 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-08-18T03:30:00Z",
+  "description": {
+    "en": "Featured expert scenes for the expert page. Expert details are resolved by expert id on the client side.",
+    "zh": "专家页面精选场景配置。专家详情由客户端根据 expert id 映射获取。"
+  },
+  "scenes": [
+    {
+      "id": "back-to-school",
+      "displayName": {
+        "en": "Back to School",
+        "zh": "开学季"
+      },
+      "description": {
+        "en": "Back-to-school season expertise: new semester planning, study supplies & education products, exam preparation, and campus life preparation.",
+        "zh": "开学季主题专家：新学期规划、学习用品与教育产品、备考升学、校园生活准备。"
+      },
+      "image": "/scene-images/scene-back-to-school.png",
+      "headerImage": "/scene-images/scene-back-to-school-header.png",
+      "expertIds": [
+        "ex_hwMRglfsiQU2",
+        "ex_jB0dyFIQJEWa",
+        "ex_GB7f2YfHG1E9"
+      ],
+      "expertDisplayNames": {
+        "ex_hwMRglfsiQU2": {
+          "en": "Campus Job Search Coach",
+          "zh": "校园求职教练"
+        },
+        "ex_jB0dyFIQJEWa": {
+          "en": "Thesis Writing Mentor",
+          "zh": "论文写作导师"
+        },
+        "ex_GB7f2YfHG1E9": {
+          "en": "Campus Event Planning and Operations Advisor",
+          "zh": "校园活动策划与执行顾问"
+        }
+      },
+      "expertAvatars": {
+        "ex_hwMRglfsiQU2": "/avatars/CampusJobSearchCoach.png",
+        "ex_jB0dyFIQJEWa": "/avatars/ThesisWritingMentor.png",
+        "ex_GB7f2YfHG1E9": "/avatars/CampusEventNavigator.png"
+      },
+      "darkImage": "/scene-images/scene-back-to-school-dark.png"
+    },
+    {
+      "id": "content-creation",
+      "displayName": {
+        "en": "Content Creation",
+        "zh": "内容创作"
+      },
+      "description": {
+        "en": "Support content planning, writing, Xiaohongshu operations and multi-role content workflows.",
+        "zh": "覆盖内容策划、文案创作、小红书运营与团队化内容生产场景。"
+      },
+      "image": "/scene-images/scene-content-creation.png",
+      "headerImage": "/scene-images/scene-content-creation-header.png",
+      "expertIds": [
+        "AiContentCreatorTeam",
+        "ContentCreator",
+        "XiaohongshuOperationsExpert"
+      ],
+      "expertDisplayNames": {
+        "AiContentCreatorTeam": {
+          "en": "Content Creator Team",
+          "zh": "内容创作专家团"
+        },
+        "ContentCreator": {
+          "en": "Content Creator",
+          "zh": "内容创作专家"
+        },
+        "XiaohongshuOperationsExpert": {
+          "en": "Xiaohongshu Operations Expert",
+          "zh": "小红书运营专家"
+        }
+      },
+      "expertAvatars": {
+        "AiContentCreatorTeam": "/avatars/AiContentCreatorTeam.png",
+        "ContentCreator": "/avatars/ContentCreator.png",
+        "XiaohongshuOperationsExpert": "/avatars/XiaohongshuOperationsExpert.png"
+      },
+      "darkImage": "/scene-images/scene-content-creation-dark.png"
+    },
+    {
+      "id": "investment-analysis",
+      "displayName": {
+        "en": "Investment Analysis",
+        "zh": "投资分析"
+      },
+      "description": {
+        "en": "Support trading analysis, equity research and stock investment research workflows.",
+        "zh": "面向交易分析、股票研究、投研协作等金融投资分析场景。"
+      },
+      "image": "/scene-images/scene-investment.png",
+      "headerImage": "/scene-images/scene-investment-header.png",
+      "expertIds": [
+        "TradingAgentTeam",
+        "EquityResearchExpert",
+        "StockPartnerTeam"
+      ],
+      "expertDisplayNames": {
+        "TradingAgentTeam": {
+          "en": "Trading Analysis Team",
+          "zh": "交易分析团队"
+        },
+        "EquityResearchExpert": {
+          "en": "Equity Research Expert",
+          "zh": "股票研究专家"
+        },
+        "StockPartnerTeam": {
+          "en": "Tencent WeStock Equity Research Team",
+          "zh": "腾讯自选股股票投研专家团"
+        }
+      },
+      "expertAvatars": {
+        "TradingAgentTeam": "/avatars/TradingAgentTeam.png",
+        "EquityResearchExpert": "/avatars/EquityResearchExpert.png",
+        "StockPartnerTeam": "/plugins/stock-partner-team/avatars/team.png"
+      },
+      "darkImage": "/scene-images/scene-investment-dark.png"
+    },
+    {
+      "id": "legal-consulting",
+      "displayName": {
+        "en": "Legal Consulting",
+        "zh": "法律咨询"
+      },
+      "description": {
+        "en": "Support legal compliance review, Chinese legal consultation and tax compliance scenarios.",
+        "zh": "支持法律合规审查、中文法律咨询、财税合规等专业咨询场景。"
+      },
+      "image": "/scene-images/scene-legal.png",
+      "headerImage": "/scene-images/scene-legal-header.png",
+      "expertIds": [
+        "LegalSearchPro",
+        "ContractLegalExpert",
+        "TaxComplianceTeam"
+      ],
+      "expertDisplayNames": {
+        "LegalSearchPro": {
+          "en": "LexFinder Pro",
+          "zh": "法检 Pro"
+        },
+        "ContractLegalExpert": {
+          "en": "Tencent eSign Contract Legal Expert",
+          "zh": "资深合同法务专家"
+        },
+        "TaxComplianceTeam": {
+          "en": "Tax Compliance Team",
+          "zh": "财税合规专家团"
+        }
+      },
+      "expertAvatars": {
+        "LegalSearchPro": "/avatars/LegalSearchPro.png",
+        "ContractLegalExpert": "/avatars/ContractLegalExpert.png",
+        "TaxComplianceTeam": "/avatars/TaxComplianceTeam.png"
+      },
+      "darkImage": "/scene-images/scene-legal-dark.png"
+    },
+    {
+      "id": "small-business",
+      "displayName": {
+        "en": "Small Business",
+        "zh": "小微企业"
+      },
+      "description": {
+        "en": "Support sales coaching, official account operations and entrepreneurship guidance for small businesses.",
+        "zh": "面向小微企业销售提升、公众号运营、创业辅导等经营场景。"
+      },
+      "image": "/scene-images/scene-small-business.png",
+      "headerImage": "/scene-images/scene-small-business-header.png",
+      "expertIds": [
+        "SalesCoach",
+        "WechatOfficialAccountExpert",
+        "EntrepreneurshipCoach"
+      ],
+      "expertDisplayNames": {
+        "SalesCoach": {
+          "en": "Sales Coach",
+          "zh": "销售教练"
+        },
+        "WechatOfficialAccountExpert": {
+          "en": "WeChat Official Account Operations Expert",
+          "zh": "微信公众号运营专家"
+        },
+        "EntrepreneurshipCoach": {
+          "en": "Entrepreneurship Partner",
+          "zh": "创业伙伴"
+        }
+      },
+      "expertAvatars": {
+        "SalesCoach": "/avatars/SalesCoach.png",
+        "WechatOfficialAccountExpert": "/avatars/WechatOfficialAccountExpert.png",
+        "EntrepreneurshipCoach": "/avatars/EntrepreneurshipCoach.jpg"
+      },
+      "darkImage": "/scene-images/scene-small-business-dark.png"
+    },
+    {
+      "id": "ecommerce-operations",
+      "displayName": {
+        "en": "E-commerce Operations",
+        "zh": "电商运营"
+      },
+      "description": {
+        "en": "Support China e-commerce operations, cross-border commerce and content monetization workflows.",
+        "zh": "覆盖中国电商运营、跨境电商、内容变现商业化等增长场景。"
+      },
+      "image": "/scene-images/scene-ecommerce.png",
+      "headerImage": "/scene-images/scene-ecommerce-header.png",
+      "expertIds": [
+        "ChinaEcommerceOperationsExpert",
+        "CrossBorderEcommerceExpert",
+        "ContentMonetizationTeam"
+      ],
+      "expertDisplayNames": {
+        "ChinaEcommerceOperationsExpert": {
+          "en": "China E-commerce Operations Expert",
+          "zh": "中国电商运营专家"
+        },
+        "CrossBorderEcommerceExpert": {
+          "en": "Cross-Border E-commerce Expert",
+          "zh": "跨境电商专家"
+        },
+        "ContentMonetizationTeam": {
+          "en": "Content Monetization Team",
+          "zh": "内容变现商业化专家团"
+        }
+      },
+      "expertAvatars": {
+        "ChinaEcommerceOperationsExpert": "/avatars/ChinaEcommerceOperationsExpert.png",
+        "CrossBorderEcommerceExpert": "/avatars/CrossBorderEcommerceExpert.png",
+        "ContentMonetizationTeam": "/avatars/ContentMonetizationTeam.png"
+      },
+      "darkImage": "/scene-images/scene-ecommerce-dark.png"
+    },
+    {
+      "id": "data-analysis",
+      "displayName": {
+        "en": "Data Analysis",
+        "zh": "数据分析"
+      },
+      "description": {
+        "en": "Support data analytics reporting, deep research and advertising analytics workflows.",
+        "zh": "覆盖数据分析报告、深度研究、广告投放分析等数据驱动场景。"
+      },
+      "image": "/scene-images/scene-data-analysis.png",
+      "headerImage": "/scene-images/scene-data-analysis-header.png",
+      "expertIds": [
+        "DataAnalyticsReporter",
+        "GPTResearcherTeam",
+        "HuashuDataPro"
+      ],
+      "expertDisplayNames": {
+        "DataAnalyticsReporter": {
+          "en": "Data Analytics Reporter",
+          "zh": "数据分析报告师"
+        },
+        "GPTResearcherTeam": {
+          "en": "Deep Research Team",
+          "zh": "深度研究团队"
+        },
+        "HuashuDataPro": {
+          "zh": "花叔数据分析专家团",
+          "en": "Huashu Data Analysis Team"
+        }
+      },
+      "expertAvatars": {
+        "DataAnalyticsReporter": "/avatars/DataAnalyticsReporter.png",
+        "GPTResearcherTeam": "/avatars/GPTResearcherTeam.png",
+        "HuashuDataPro": "/avatars/HuashuDataPro.png"
+      },
+      "darkImage": "/scene-images/scene-data-analysis-dark.png"
+    },
+    {
+      "id": "professional-docs",
+      "displayName": {
+        "en": "Professional Docs",
+        "zh": "专业文档"
+      },
+      "description": {
+        "en": "Support document generation, office document processing and team-based professional document production.",
+        "zh": "覆盖文档自动生成、办公文档处理与团队化专业文档生产场景。"
+      },
+      "image": "/scene-images/scene-professional-docs.png",
+      "headerImage": "/scene-images/scene-professional-docs-header.png",
+      "expertIds": [
+        "DocumentGenerationExpert",
+        "DocumentProcessingExpert",
+        "OpenSpecDocTeam"
+      ],
+      "expertDisplayNames": {
+        "DocumentGenerationExpert": {
+          "en": "Document Generation Expert",
+          "zh": "文档生成专家"
+        },
+        "DocumentProcessingExpert": {
+          "en": "Document Processing Expert",
+          "zh": "文档处理专家"
+        },
+        "OpenSpecDocTeam": {
+          "en": "Professional Document Generation Team",
+          "zh": "专业文档生成团队"
+        }
+      },
+      "expertAvatars": {
+        "DocumentGenerationExpert": "/avatars/DocumentGenerationExpert.png",
+        "DocumentProcessingExpert": "/avatars/DocumentProcessingExpert.png",
+        "OpenSpecDocTeam": "/avatars/OpenSpecDocTeam.png"
+      },
+      "darkImage": "/scene-images/scene-professional-docs-dark.png"
+    },
+    {
+      "id": "product-design",
+      "displayName": {
+        "en": "Product Design",
+        "zh": "产品设计"
+      },
+      "description": {
+        "en": "Support UI design, product management and team-based product strategy planning.",
+        "zh": "覆盖UI界面设计、产品管理规划与团队化产品战略协作场景。"
+      },
+      "image": "/scene-images/scene-product-design.png",
+      "headerImage": "/scene-images/scene-product-design-header.png",
+      "expertIds": [
+        "UiDesigner",
+        "ProductManagementExpert",
+        "ProductStrategyTeam"
+      ],
+      "expertDisplayNames": {
+        "UiDesigner": {
+          "en": "UI Designer",
+          "zh": "UI设计师"
+        },
+        "ProductManagementExpert": {
+          "en": "Product Management Expert",
+          "zh": "产品管理专家"
+        },
+        "ProductStrategyTeam": {
+          "en": "Product Strategy Team",
+          "zh": "产品战略团队"
+        }
+      },
+      "expertAvatars": {
+        "UiDesigner": "/avatars/UiDesigner.png",
+        "ProductManagementExpert": "/avatars/ProductManagementExpert.png",
+        "ProductStrategyTeam": "/avatars/ProductStrategyTeam.png"
+      },
+      "darkImage": "/scene-images/scene-product-design-dark.png"
+    },
+    {
+      "id": "engineering",
+      "displayName": {
+        "en": "Engineering",
+        "zh": "工程开发"
+      },
+      "description": {
+        "en": "Support senior development, team-based software delivery and WeChat Mini Program development.",
+        "zh": "覆盖资深开发指导、团队化软件交付与微信小程序开发场景。"
+      },
+      "image": "/scene-images/scene-engineering.png",
+      "headerImage": "/scene-images/scene-engineering-header.png",
+      "expertIds": [
+        "SeniorDeveloper",
+        "SoftwareCompany",
+        "WeChatMiniProgramDeveloper"
+      ],
+      "expertDisplayNames": {
+        "SeniorDeveloper": {
+          "en": "Senior Developer",
+          "zh": "高级开发工程师"
+        },
+        "SoftwareCompany": {
+          "en": "Software Development Team",
+          "zh": "软件开发团队"
+        },
+        "WeChatMiniProgramDeveloper": {
+          "en": "WeChat Mini Program Developer",
+          "zh": "微信小程序开发者"
+        }
+      },
+      "expertAvatars": {
+        "SeniorDeveloper": "/avatars/SeniorDeveloper.png",
+        "SoftwareCompany": "/avatars/SoftwareCompany.png",
+        "WeChatMiniProgramDeveloper": "/avatars/WeChatMiniProgramDeveloper.png"
+      },
+      "darkImage": "/scene-images/scene-engineering-dark.png"
+    }
+  ]
+}

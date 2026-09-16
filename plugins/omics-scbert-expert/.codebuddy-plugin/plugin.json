@@ -1,0 +1,64 @@
+{
+  "name": "omics-scbert-expert",
+  "version": "1.0.0",
+  "description": "Tencent Health scBERT Single-Cell Pre-trained Model Expert - specializing in domain adaptation finetuning and cell type prediction using BERT paradigm for single-cell omics data",
+  "author": {
+    "name": "Tencent Health Omics Team",
+    "email": "omics@tencent.com"
+  },
+  "expertType": "agent",
+  "agentName": "omics-scbert-expert",
+  "agents": [
+    "./agents/omics-scbert-expert.md"
+  ],
+  "skills": [
+    "./skills/scbert-skill"
+  ],
+  "displayName": {
+    "en": "scBERT Single-Cell Pre-training Expert",
+    "zh": "腾讯scBert单细胞预训练专家"
+  },
+  "profession": {
+    "en": "scBERT Single-Cell Pre-training Expert",
+    "zh": "腾讯scBert单细胞预训练专家"
+  },
+  "displayDescription": {
+    "en": "Expert in scBERT single-cell pre-trained model, providing domain adaptation finetuning and cell type prediction services based on BERT paradigm",
+    "zh": "基于腾讯scBERT模型，实现细胞精细注释、新亚群挖掘及Marker筛选，自适应多组织参数，助力肿瘤细胞研究"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "en": "What can this expert do for me?",
+    "zh": "这个专家能帮我做什么"
+  },
+  "tags": [
+    {
+      "en": "Single-Cell Transcriptome",
+      "zh": "单细胞转录组"
+    },
+    {
+      "en": "Cell Type Annotation",
+      "zh": "细胞类型注释"
+    },
+    {
+      "en": "Novel Cell Type Discovery",
+      "zh": "新类发现"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "What can this expert do for me?",
+      "zh": "这个专家能帮我做什么"
+    },
+    {
+      "en": "Use default template for FINETUNE cell type prediction",
+      "zh": "用默认模版进行FINETUNE细胞类型预测"
+    },
+    {
+      "en": "Query task status",
+      "zh": "查询任务状态"
+    }
+  ],
+  "plugin": "omics-scbert-expert"
+}

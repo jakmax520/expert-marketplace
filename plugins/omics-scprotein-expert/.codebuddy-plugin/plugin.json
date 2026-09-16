@@ -1,0 +1,64 @@
+{
+  "name": "omics-scprotein-expert",
+  "version": "1.0.0",
+  "description": "Tencent Health scPROTEIN Single-Cell Proteomics Modeling Expert - specializing in peptide-level uncertainty quantification and cell-level embedding learning using GNN-based foundation model collection",
+  "author": {
+    "name": "Tencent Health Omics Team",
+    "email": "omics@tencent.com"
+  },
+  "expertType": "agent",
+  "agentName": "omics-scprotein-expert",
+  "agents": [
+    "./agents/omics-scprotein-expert.md"
+  ],
+  "skills": [
+    "./skills/scprotein-collection-skill"
+  ],
+  "displayName": {
+    "en": "scPROTEIN Single-Cell Proteomics Expert",
+    "zh": "腾讯scPROTEIN单细胞蛋白组建模专家"
+  },
+  "profession": {
+    "en": "scPROTEIN Single-Cell Proteomics Expert",
+    "zh": "腾讯scPROTEIN单细胞蛋白组建模专家"
+  },
+  "displayDescription": {
+    "en": "Expert in scPROTEIN GNN-based single-cell proteomics model, providing peptide uncertainty quantification and cell embedding services",
+    "zh": "腾讯 scPROTEIN表征模型，实现对单细胞蛋白组的多肽不确定性估计，去除批次效应噪声以及单细胞蛋白组的细胞类型注释"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "en": "What can this expert do for me?",
+    "zh": "这个专家能帮我做什么"
+  },
+  "tags": [
+    {
+      "en": "Uncertainty Estimation",
+      "zh": "不确定性估计"
+    },
+    {
+      "en": "Cell Type Annotation",
+      "zh": "细胞类型注释"
+    },
+    {
+      "en": "Batch Effect Removal & Data Denoising",
+      "zh": "去除批次效应和数据噪声"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "What can this expert do for me?",
+      "zh": "这个专家能帮我做什么"
+    },
+    {
+      "en": "Evaluate peptide-level uncertainty quantification, use default template",
+      "zh": "评估肽级不确定性定量，使用默认模版"
+    },
+    {
+      "en": "Query task status",
+      "zh": "查询任务状态"
+    }
+  ],
+  "plugin": "omics-scprotein-expert"
+}
