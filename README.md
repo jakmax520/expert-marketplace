@@ -1,6 +1,6 @@
 # expert-marketplace
 
-WorkBuddy 公开专家市场的**镜像归档**，供 [Logexus](https://github.com/jakmax520) 从单一受控源拉取专家数据与技能文件。
+专家市场拉取专家数据与技能文件。
 
 ## 这是什么
 
@@ -31,7 +31,5 @@ WorkBuddy 公开专家市场的**镜像归档**，供 [Logexus](https://github.c
 - `avatar` 字段有 15 条写成 `/plugins/<plugin>/avatars/` 而非顶层 `/avatars/`，
   这些只存在于归档仓，镜像时已按回退路径取回
 
-## 版权
 
-内容版权归原作者与 WorkBuddy / 腾讯相关产品所有，此处仅作公开数据的镜像归档。
 各专家自带技能的许可文件随目录一并保留（`skills/**/LICENSE*`）。
